@@ -11,4 +11,18 @@ Selects all image tags and makes them 500px;
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  height: 35rem;
+  width: 28rem;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.gallery-item:hover {
+  background-color: red;
 }
